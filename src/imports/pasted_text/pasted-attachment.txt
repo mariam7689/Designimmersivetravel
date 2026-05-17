@@ -1,0 +1,2969 @@
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+Act as a senior full-stack software architect, startup product designer, and React engineering lead.
+Build a COMPLETE world-class travel-tech platform called “Desertia”, specialized in Egypt’s deserts, safari tourism, eco-lodges, hidden gems, luxury desert experiences, and smart trip planning.
+⚠️ IMPORTANT:
+This is NOT a simple student project.
+Build it like a REAL funded startup product with:
+•	advanced UX/UI
+•	realistic booking systems
+•	payments
+•	international travelers support
+•	gamification
+•	loyalty systems
+•	chatbot
+•	premium cinematic design
+Generate:
+•	Full frontend architecture
+•	Full backend architecture
+•	Component structure
+•	Database structure
+•	Routing
+•	APIs
+•	Authentication logic
+•	Payment system logic
+•	Booking system logic
+•	Smart travel system
+•	Real navigation for EVERY button
+Use:
+•	React.js
+•	JavaScript
+•	Vite
+•	TailwindCSS
+•	Node.js + Express
+•	MongoDB
+•	JWT Authentication
+•	Stripe or PayPal
+•	React Router DOM
+•	Framer Motion
+•	Zustand or Context API
+________________________________________
+🌍 PROJECT OVERVIEW
+Desertia is a premium cinematic tourism platform focused ONLY on Egypt’s deserts and authentic desert experiences.
+The platform includes:
+•	Desert exploration
+•	Hotel & lodge booking
+•	Safari booking
+•	Flight guidance for foreigners
+•	Smart trip planning
+•	Rewards & bonuses
+•	Challenges & gamification
+•	International traveler support
+•	Chatbot assistant
+•	Reviews & ratings
+•	User profiles
+•	Payment & booking system
+•	AI recommendations
+•	Premium immersive experience
+The website must feel:
+•	Cinematic
+•	Emotional
+•	Premium
+•	Realistic
+•	Modern startup quality
+•	Tourism + adventure focused
+________________________________________
+🎨 UI/UX STYLE
+The UI should look like:
+•	Netflix travel documentary
+•	Luxury tourism startup
+•	Premium desert exploration platform
+Use:
+•	Cinematic fullscreen desert videos
+•	Camels
+•	Safari cars
+•	Bedouin camps
+•	Stargazing
+•	Sinai mountains
+•	White Desert
+•	Sandstorm effects
+•	Floating particles
+•	Glassmorphism
+•	Smooth transitions
+•	3D layered design
+NO:
+❌ pyramids
+❌ generic tourism look
+❌ boring layouts
+________________________________________
+🎥 HERO BACKGROUND
+Create immersive cinematic desert video backgrounds:
+•	Moving camels
+•	Safari driving through dunes
+•	Campfires at night
+•	Stargazing sky
+•	White Desert landscapes
+•	Bedouin atmosphere
+•	Sunset desert scenes
+Overlay:
+•	Dark cinematic gradient
+•	Floating dust particles
+•	Warm lighting effects
+________________________________________
+🔐 COMPLETE AUTH SYSTEM
+Create FULL authentication flow.
+Pages:
+•	Login
+•	Register
+•	Forgot Password
+•	Reset Password
+•	Verify Email
+•	User Profile
+________________________________________
+📝 REGISTER PAGE
+Fields:
+•	Full Name
+•	Email
+•	Password
+•	Confirm Password
+•	Age
+•	Country
+•	Date of Birth
+•	Phone Number
+•	Profile Image
+Validation:
+•	Email validation
+•	Password strength
+•	Password matching
+•	Required fields
+•	Country validation
+•	Age validation
+________________________________________
+🔑 LOGIN PAGE
+IMPORTANT:
+The login MUST use the SAME credentials created in Register.
+Requirements:
+•	User registers
+•	Data saves in backend/database
+•	User can log in using same email/password
+•	JWT authentication
+•	Session persistence
+•	Remember me
+If login succeeds:
+➡ Redirect user to their own Profile Dashboard automatically.
+If login fails:
+➡ Show animated error messages.
+________________________________________
+🔐 FORGOT PASSWORD
+Features:
+•	Email reset link
+•	OTP verification
+•	Reset password page
+•	Success states
+•	Error handling
+________________________________________
+👤 USER PROFILE SYSTEM
+After login:
+Open user profile dashboard.
+Profile includes:
+•	Profile image
+•	Name
+•	Country
+•	Saved trips
+•	Booking history
+•	Rewards points
+•	Bonus offers
+•	Wishlist
+•	Reviews
+•	Upcoming trips
+•	Flight info
+•	Notifications
+•	Edit profile
+________________________________________
+🏨 HOTEL & LODGE SYSTEM
+Create a complete booking experience.
+Hotel cards should include:
+•	Hotel image gallery
+•	Number of stars ⭐
+•	Price per night
+•	Reviews
+•	Location
+•	Amenities
+•	Nearby attractions
+•	Booking button
+•	Availability
+•	Interactive map
+Types:
+•	Eco-lodge
+•	Desert camp
+•	Luxury hotel
+________________________________________
+📅 TRIP & BOOKING SYSTEM
+Users can:
+•	Book desert trips
+•	Book activities
+•	Book hotels
+•	Save itineraries
+Trip details:
+•	Dates
+•	Number of travelers
+•	Budget
+•	Transportation
+•	Activities included
+Include:
+•	Booking calendar
+•	Available seats
+•	Trip schedule
+•	Upcoming departures
+________________________________________
+💳 PAYMENT SYSTEM (VERY IMPORTANT)
+Build a REALISTIC payment system.
+Support:
+•	Stripe
+•	PayPal
+•	Visa / Mastercard
+Features:
+•	Secure checkout
+•	Booking confirmation
+•	Payment success page
+•	Payment failed page
+•	Currency conversion
+•	International payments
+Show:
+•	Total trip cost
+•	Taxes
+•	Discounts
+•	Promo codes
+•	Bonus rewards
+Booking flow:
+1.	Select trip
+2.	Select hotel
+3.	Add extras
+4.	Payment page
+5.	Booking confirmation
+________________________________________
+🌍 INTERNATIONAL TRAVELER SYSTEM
+Create special support for foreign travelers.
+Features:
+•	“How To Reach Egypt” page
+•	Flight guidance
+•	Airport information
+•	Visa guidance
+•	Transportation guide
+•	Suggested airlines
+•	Currency exchange info
+•	Local SIM card guide
+•	Weather guide
+Add:
+•	Interactive travel assistant
+•	Flight booking guidance UI
+________________________________________
+🎁 BONUS & OFFERS SYSTEM
+Create a rewards system:
+•	Loyalty points
+•	Desert badges
+•	Special offers
+•	Seasonal discounts
+•	First trip bonus
+•	Referral rewards
+Examples:
+•	“Book 2 trips → Get Stargazing Experience Free”
+•	“Invite friends → Earn Desert Coins”
+________________________________________
+🎮 GAMIFICATION SYSTEM
+Create fun challenge features.
+Examples:
+•	“Discover Hidden Gem”
+•	“Visit 3 deserts challenge”
+•	“Complete Safari Mission”
+•	“Stargazing Explorer Badge”
+Features:
+•	XP points
+•	Achievement cards
+•	Progress tracker
+•	Unlock rewards
+________________________________________
+🛍️ DESERTIA SHOP PAGE
+Create merchandise section:
+•	T-shirts
+•	Hoodies
+•	Bottles
+•	Stickers
+•	Travel kits
+Products include:
+•	Desertia logo
+•	Desert-inspired designs
+Features:
+•	Product cards
+•	Add to cart
+•	Checkout
+•	Gift rewards
+________________________________________
+🤖 CHATBOT SYSTEM
+Add floating chatbot button.
+Chatbot can help users:
+•	Plan trips
+•	Find hotels
+•	Recommend activities
+•	Explain payments
+•	Guide foreigners
+Features:
+•	Floating chatbot icon
+•	Open/close animation
+•	Suggested questions
+•	Smart responses UI
+________________________________________
+🗺️ INTERACTIVE MAP SYSTEM
+Include:
+•	Desert locations
+•	Hotels
+•	Hidden gems
+•	Activities
+•	Routes
+Features:
+•	Map pins
+•	Hover cards
+•	Route suggestions
+•	Nearby recommendations
+________________________________________
+📆 TRIP SCHEDULE PAGE
+Create pages for:
+•	Upcoming trips
+•	Daily schedules
+•	Activity timelines
+•	Booking deadlines
+________________________________________
+🧩 IMPORTANT BUTTON LOGIC
+⚠️ VERY IMPORTANT:
+EVERY button MUST work properly.
+NO empty pages.
+For EVERY button:
+Explain:
+•	What it does
+•	Where it navigates
+•	What API it calls
+•	What modal it opens
+•	Loading states
+•	Success states
+•	Error states
+Example:
+“Book Now” button:
+•	Opens booking modal
+•	Saves trip state
+•	Navigates to payment page
+•	Creates booking in database
+•	Shows loading animation
+•	Redirects to confirmation page
+________________________________________
+🌳 COMPONENT STRUCTURE
+Generate FULL tree structure for:
+•	All pages
+•	Parent/child components
+•	Shared components
+•	Modals
+•	Forms
+•	Cards
+•	Layouts
+________________________________________
+📂 FULL FOLDER STRUCTURE
+Generate startup-level structure for:
+Frontend:
+•	pages
+•	components
+•	layouts
+•	hooks
+•	store
+•	services
+•	animations
+•	routes
+•	assets
+Backend:
+•	controllers
+•	routes
+•	models
+•	middleware
+•	services
+•	payments
+•	auth
+•	utils
+________________________________________
+🧠 DATABASE STRUCTURE
+Generate database models for:
+•	Users
+•	Trips
+•	Hotels
+•	Activities
+•	Payments
+•	Rewards
+•	Reviews
+•	Challenges
+•	Flight guides
+•	Notifications
+•	Chatbot messages
+________________________________________
+📱 RESPONSIVE DESIGN
+Design for:
+•	Mobile
+•	Tablet
+•	Desktop
+Include:
+•	Responsive navbar
+•	Responsive booking system
+•	Responsive payment pages
+________________________________________
+🚀 FINAL GOAL
+Build a COMPLETE startup-level travel platform that feels like:
+•	Airbnb + Booking.com + luxury tourism startup
+•	Focused ONLY on Egypt’s deserts
+•	Immersive and cinematic
+•	Smart and interactive
+•	Professional enough for:
+✅ graduation project
+✅ startup MVP
+✅ investor presentation
+✅ real-world deployment
+Generate:
+•	Full architecture
+•	Full UI structure
+•	Full code structure
+•	Full component tree
+•	Full backend logic
+•	Full routing logic
+•	Full booking & payment flow
+•	Full authentication flow
+•	Detailed button behavior
+•	Production-ready planning
+
+

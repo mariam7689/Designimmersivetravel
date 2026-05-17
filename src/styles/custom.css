@@ -1,0 +1,183 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #D8B36A 0%, #C17C54 50%, #D8B36A 100%);
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--desert-gold);
+  cursor: pointer;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--desert-gold);
+  cursor: pointer;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  transform: scale(1.1);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+textarea {
+  transition: all 0.2s;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(216, 179, 106, 0.2);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--desert-gold);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-brown);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.premium-card {
+  background: linear-gradient(135deg, rgba(242, 230, 201, 0.1) 0%, rgba(216, 179, 106, 0.1) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(216, 179, 106, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.premium-card:hover {
+  background: linear-gradient(135deg, rgba(242, 230, 201, 0.15) 0%, rgba(216, 179, 106, 0.15) 100%);
+  border-color: rgba(216, 179, 106, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(216, 179, 106, 0.3);
+}
+
+.glow-effect {
+  filter: drop-shadow(0 0 20px rgba(216, 179, 106, 0.5));
+}
+
+.text-glow {
+  text-shadow: 0 0 30px rgba(216, 179, 106, 0.6),
+               0 0 60px rgba(216, 179, 106, 0.3);
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(216, 179, 106, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(216, 179, 106, 0.6));
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.parallax-layer {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
